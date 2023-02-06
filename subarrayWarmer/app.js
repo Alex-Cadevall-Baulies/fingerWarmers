@@ -3,7 +3,7 @@ const n = 3
 
 //create biggest sum with n numbers maintaining array order
 function maxArraySum(numberArray, n) {
-    let maxCount = numberArray.lenght - n
+    let maxCount = numberArray.length - n
     let i
 
     for (i = 0; i < maxCount; i++) {
